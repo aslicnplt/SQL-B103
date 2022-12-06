@@ -103,6 +103,8 @@ ORDER BY isim DESC;
 --Urun ismine gore urunu alan toplam kisi sayisi
 Select urun_adi,count(isim) from manav
 GROUP BY urun_adi;
+select isim,count(urun_adi) from manav
+GROUP BY isim;
 
 
 
